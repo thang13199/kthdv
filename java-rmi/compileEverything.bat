@@ -1,1 +1,1 @@
-javac src/com/mkyong/rmiinterface/RMIInterface.java src/com/mkyong/rmiserver/ServerOperation.java src/com/mkyong/rmiserver/student.java src/com/mkyong/rmiserver/arrayStudent.java src/com/mkyong/rmiclient/ClientOperation.java
+javac src/rmi/rmiinterface/RMIInterface.java src/rmi/rmiserver/ServerOperation.java src/rmi/rmiserver/student.java src/rmi/rmiserver/arrayStudent.java src/rmi/rmiclient/ClientOperation.java
