@@ -1,1 +1,0 @@
-javac src/rmi/rmiinterface/RMIInterface.java src/rmi/rmiserver/ServerOperation.java src/rmi/rmiserver/student.java src/rmi/rmiserver/arrayStudent.java src/rmi/rmiclient/ClientOperation.java

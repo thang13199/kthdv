@@ -6,13 +6,17 @@ public class student {
     String email;
     String phone;
     int mssv;
+    String date;
+    String home;
 
-    public student(String name, int age, String email, String phone , int mssv) {
+    public student(String name, int age, String email, String phone , int mssv, String date,String home) {
         this.name = name;
         this.age = age;
         this.email = email;
         this.phone = phone;
         this.mssv=mssv;
+        this.date=date;
+        this.home=home;
     }
 
     public String getName() {
@@ -29,6 +33,14 @@ public class student {
 
     public String getPhone() {
         return phone;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getHome() {
+        return home;
     }
 
     public int getMssv() {
