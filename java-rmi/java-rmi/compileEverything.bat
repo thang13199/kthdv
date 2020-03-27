@@ -1,1 +1,0 @@
-javac src/com/mkyong/rmiinterface/RMIInterface.java src/com/mkyong/rmiserver/ServerOperation.java src/com/mkyong/rmiserver/student.java src/com/mkyong/rmiserver/arrayStudent.java src/com/mkyong/rmiclient/ClientOperation.java

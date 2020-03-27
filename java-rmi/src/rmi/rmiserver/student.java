@@ -1,4 +1,4 @@
-package com.mkyong.rmiserver;
+package rmi.rmiserver;
 
 public class student {
     String name;

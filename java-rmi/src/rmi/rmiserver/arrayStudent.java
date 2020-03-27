@@ -1,4 +1,4 @@
-package com.mkyong.rmiserver;
+package rmi.rmiserver;
 
 import javax.xml.namespace.QName;
 import java.util.ArrayList;
@@ -16,17 +16,16 @@ public class arrayStudent {
             System.out.println(liststu.get(i));
             if (liststu.get(i).mssv==mssv){
                 final String info=  "Ten: "+ temp.name+"\n"+
-                                    "Que: "+temp.home+"\n"+
-                                    "NgaySinh: "+temp.date+"\n"+
-                                    "Email: "+ temp.email+"\n"+
-                                    "Mssv: "+ temp.mssv+"\n"+
-                                    "Tuoi: "+temp.age+"\n"+
-                                    "Sdt: "+ temp.phone
-                                    ;
+                        "Que: "+temp.home+"\n"+
+                        "NgaySinh: "+temp.date+"\n"+
+                        "Email: "+ temp.email+"\n"+
+                        "Mssv: "+ temp.mssv+"\n"+
+                        "Tuoi: "+temp.age+"\n"+
+                        "Sdt: "+ temp.phone
+                        ;
                 return info;
             }
         }
         return "khong tim thay";
     }
-
 }

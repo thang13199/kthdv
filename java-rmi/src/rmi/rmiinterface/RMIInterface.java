@@ -1,8 +1,8 @@
-package com.mkyong.rmiinterface;
+package rmi.rmiinterface;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface RMIInterface extends Remote {
-	public String helloTo(String name) throws RemoteException;
+    public String helloTo(String name) throws RemoteException;
 }
